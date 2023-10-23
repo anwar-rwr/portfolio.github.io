@@ -1287,6 +1287,14 @@ body {
     padding-top: 0.75rem;
   }
 
+  .lg\:pb-56 {
+    padding-bottom: 14rem;
+  }
+
+  .lg\:pb-60 {
+    padding-bottom: 15rem;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
