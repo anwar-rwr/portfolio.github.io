@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+
+#about,  #portfolio, #use, #blog {
+    font-family: 'Playpen Sans', cursive;
+} 
+
+ body {
     font-family: 'Inter', sans-serif;
-}
+} 
 
 .navbar-fixed {
     @apply fixed z-[9999] bg-slate-900 bg-opacity-70;
