@@ -977,10 +977,6 @@ video {
   text-transform: uppercase;
 }
 
-.leading-relaxed {
-  line-height: 1.625;
-}
-
 .text-dark {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
@@ -1078,7 +1074,7 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#about,  #portfolio, #use, #blog {
+#home, #about,  #portfolio, #use, #blog {
   font-family: 'Playpen Sans', cursive;
 }
 
@@ -1274,10 +1270,6 @@ body {
 
   .lg\:pb-60 {
     padding-bottom: 15rem;
-  }
-
-  .lg\:pl-20 {
-    padding-left: 5rem;
   }
 
   .lg\:pl-40 {

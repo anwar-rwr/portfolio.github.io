@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 
-#about,  #portfolio, #use, #blog {
+#home, #about,  #portfolio, #use, #blog {
     font-family: 'Playpen Sans', cursive;
 } 
 
  body {
     font-family: 'Inter', sans-serif;
+  
 } 
 
 .navbar-fixed {
