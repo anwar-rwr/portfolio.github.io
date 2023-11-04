@@ -61,15 +61,15 @@
          <div class="flex flex-wrap" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
          <div class="w-full self-center px-4 lg:w-1/2" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
            <h1 class="block md:text-2xl text-judul lg:pl-40">Hello Everyone🖐</h1>
-            <h1 class="md:text-5xl block font-bold text-dark lg:text-5xl lg:pl-40">Im Anwar Putra</h1>
+            <h1 class="md:text-5xl block font-bold text-dark lg:text-5xl lg:pl-40"><span class="text-judul">I'm </span>Anwar Putra</h1>
             <h2 class="font-medium block text-slate-500 text-lg mb-5 lg:text-2xl lg:pl-40">
                 <div class="text-animation"></div>
               </h2>
                <a href="#contact" class="text-base font-semibold text-white bg-slate-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out lg:ml-40 " >Let's Talk</a> 
            </div>
           <div class="w-full self-end px-4 lg:w-1/2">
-            <div class="mt-10 lg:mt-0 lg:right-0">
-              <img src="img/jancu.png" alt="anwar" class="max-w-full mx-auto sm:w-full sm:h-full" width="800"/>
+            <div class="mt-10 lg:mt-0 lg:right-0 ">
+              <img src="img/tenan.png" alt="anwar" class="max-w-full mx-auto sm:w-full sm:h-full" width="800"/>
             </div>
           </div>
         </div>
@@ -437,8 +437,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/TextPlugin.min.js"></script>
     <script>
         gsap.registerPlugin(TextPlugin);
-        gsap.to('.text-animation', {duration: 3, delay: 2, text: 'Fullstack | Web & app Developer'});
-        gsap.from('#home img ', { duration: 2.5, rotateX : '-100%', opacity: 0, ease: 'elastic' });
+        gsap.to('.text-animation', {duration: 3, delay: 2, text: 'Fullstack | Web Developer'});
+        gsap.from('#home img',  {
+          yoyo: true, // Mengulang bolak-balik
+          repeat: -1, // Mengulang secara tak terbatas
+          y: -22, // Pergeseran ke atas sejauh -10px
+          duration: 1.5, // Durasi pergerakan (sesuaikan sesuai kebutuhan)
+          ease: "linear", // Animasi bergerak linier
+        }); 
         gsap.from('.block', { duration: 1, delay:2, y: '-100%', opacity: 0, ease: 'bounce' });
     </script>
 </body>
