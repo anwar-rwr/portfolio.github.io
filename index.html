@@ -437,7 +437,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/TextPlugin.min.js"></script>
     <script>
         gsap.registerPlugin(TextPlugin);
-        gsap.to('.text-animation', {duration: 3, delay: 2, text: 'Fullstack | Web Developer'});
+        gsap.to('.text-animation', {duration: 3, delay: 2, repeat: -1, text: 'Fullstack | Web Developer'});
         gsap.from('#home img',  {
           yoyo: true, // Mengulang bolak-balik
           repeat: -1, // Mengulang secara tak terbatas
