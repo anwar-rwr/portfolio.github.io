@@ -35,3 +35,16 @@
     @apply  -rotate-45;
 }
 
+
+
+@keyframes scrollImages {
+    0% {
+      transform: translateX(100%); /* Mulai dari kanan */
+    }
+    100% {
+      transform: translateX(-100%); /* Selesai ke kiri */
+    }
+  }
+  
+
+  
